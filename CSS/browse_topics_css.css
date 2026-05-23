@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+}
+.browse-p{
+    display: inline;
+    margin: 3% 2%;
+    padding-bottom: 1%;
+    color: gray;
+}
+.browse-p:hover{
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+.browse-cards{
+    margin-top: 10%;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 9px 1px gray;
+    padding: 7%;
+    height: 86%;
+}
+.browse-card-p{
+    color: gray;
+    /* padding: 2%; */
+    margin-bottom: 0;
+    font-family:monospace;
+}
+a{
+    text-decoration: none;
+    color: #1d5f81;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* get in touch css */
+.get-in-touch{
+    background-color: #f0f8ff;
+}
+/* .row-2{
+    height: 60%;
+} */

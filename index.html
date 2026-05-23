@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Listing website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navv ">
+            <!-- <div class="container-fluid"> -->
+            <a class="navbar-brand icon" href="#"><i class="fa-solid fa-clone"></i> <b>Topic</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-right: 0;">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3 text-white fs-5" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3 text-white fs-5" aria-current="page" href="#browse_topic">Browse Topics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3 text-white fs-5" aria-current="page" href="#how_does_it_works">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3 text-white fs-5" aria-current="page" href="#FAQs">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3 text-white fs-5" aria-current="page" href="#get_in_touch">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-3 text-white fs-5" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"  >
+                            <li ><a class="dropdown-item" href="./Topics_listing_page.html"style="color: gray;">Topics listing</a></li>
+                            <li><a class="dropdown-item" href="./contact_page.html" style="color: gray;">Contact Form</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li> -->
+
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item" style="margin-right: -10%;">
+                        <a class="nav-link active" id="profile" aria-current="page" href="#"><i
+                                class="fa-solid fa-user"></i></a>
+                    </li> -->
+                </ul>
+                <!-- <a href="./loginpage.html" style="margin-right: 3%;"><button style="background-color: white; border: 1px solid #58a49b; color:#58a49b; border-radius: 5px; width: 140%;">Login</button></a> -->
+                <a href="./signuppage.html" style="margin-right: 3%;"><i style="  color:white; border-radius: 50%; font-size: 25px; margin-top: 3%;" class="fa-solid fa-user profilee" ></i></a>
+            </div>
+            <!-- </div> -->
+
+        </nav>
+
+        <!-- section1 -->
+        <div class="sec1" id="home">
+            <div class="sec11">
+                <h1 style="font-size: 60px;padding-top:5%;font-weight: 700;text-align: center;color: white;">
+                    Discover.Learn.Enjoy</h1>
+                <h5 style="text-align: center; margin-bottom: 5%;color: #052d40;">platform for creatives around the
+                    world
+                </h5>
+                <center>
+                    <div
+                        style="width:60%; border-radius: 50px; display: flex; border: none; background-color: white; padding: 0.2%; align-items: center;">
+                        <i class="fa-solid fa-magnifying-glass" style="padding-left: 3%; margin-right:1% ;"></i>
+                        <input type="search" style="width:90%; height:50px; border-radius: 50px; border: none; outline: none;"
+                            placeholder="Design, code, Marketing, Finance..." class="inputt">
+                        <button
+                            style="width:15%; height:40px; border-radius: 30px; background-color:#80d0c7 ; border: none; margin-right: 1%; color: white; font-size: 20px;" class="search_btn hb">Search</button>
+                    </div>
+                </center>
+            </div>
+
+            <div class="sec12"></div>
+            <!-- <a href="" > -->
+            <div class="finance">
+                <div class="opacity"></div>
+                <div class="financecontent">
+                    <h4 style="margin-bottom: 3%; margin-top: 5%;">Finance</h4>
+                    <p style="font-size: 20px;margin-bottom: 3%; margin-top: 3%;">Topic Listing Template includes
+                        homepage,
+                        listing
+                        page, detail page, and contact page. You can feel free to edit and adapt for your CMS
+                        requirements.
+                    </p>
+                    <button type="button" class="btn btn-lg hb"
+                        style="margin-top: 3%; background-color:#80d0c7; border-radius: 30px; color: rgba(36, 6, 6); color: white;">Learn
+                        More</button>
+                    <p style="margin-top: 12%; font-size: 20px;">share : <i
+                            class="fa-brands fa-square-twitter mx-2"></i><i class="fa-brands fa-facebook mx-2"></i><i
+                            class="fa-brands fa-pinterest mx-2"></i></p>
+                </div>
+
+            </div>
+            <!-- </a> -->
+            <!-- <a href="./designpage.html"> -->
+            <div class="row">
+                <div class="col-md-4 div-1">
+                    <div class="card design-cards ">
+                        <b style=" margin-top: 1%;" class="card-title title1">Web Design</b>
+                        <p class="browse-card-p browse-card-p1">Web design courses teach the fundamentals of web design
+                            and
+                            development. They UI and UX design, responsive design, and coding.</p>
+                        <img src="./Imagess/undraw_Remote_design_team_re_urdx.png" class="img-fluid" alt=""
+                            style="border-radius: 10px;" class="browse-img1">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    <!-- </a> -->
+
+        <!-- browse topics -->
+        <div class="row" id="browse_topic">
+            <div class="col-md-12">
+                <h2 style="text-align: center; margin-top: 5%; margin-bottom: 2%;">Browse Topics</h2>
+            </div>
+        </div>
+        <div class="row" style="border-bottom: 1px solid rgb(227, 226, 226); height: 10%; ">
+            <center>
+                <p class="browse-p browse-p1">Design</p>
+                <p class="browse-p browse-p2">Marketing</p>
+                <p class="browse-p browse-p3">Finance</p>
+                <p class="browse-p browse-p4">Music</p>
+                <p class="browse-p browse-p5">Education</p>
+            </center>
+            <p></p>
+        </div>
+
+        <div class="row" style="margin-bottom: 5%;">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row row-1">
+                    <div class="col-md-4 div-1">
+                        <div class="card browse-cards ">
+                            <b style=" margin-top: 1%;"class="card-title title1">Web Design</b>
+                            <p class="browse-card-p browse-card-p1">Web design courses teach the fundamentals of web design and development. They  UI and UX design, responsive design, and coding.</p>
+                            <img src="../Project/Imagess/undraw_Remote_design_team_re_urdx.png" alt="" style="border-radius: 10px;" class="browse-img1">
+                        </div>
+                    </div>
+                    <div class="col-md-4 div-2">
+                        <div class="card browse-cards ">
+                            <b style=" margin-top: 1%;"class="card-title title2">Graphic</b>
+                            <p class="browse-card-p browse-card-p2">A graphic design course is designed to teach students how to create visual representations that effectively convey messages</p>
+                            <img src="../Project/Imagess/undraw_Redesign_feedback_re_jvm0.png" alt="" style="border-radius: 10px;" class="browse-img2">
+                        </div>
+                    </div>
+                    <div class="col-md-4 div-3">
+                        <div class="card browse-cards ">
+                            <b style=" margin-top: 1%;"class="card-title title3">Logo Design</b>
+                            <p class="browse-card-p browse-card-p3">A logo design course teaches the skills needed to create a visual identity for a brand. </p>
+                            <img src="../Project/Imagess/colleagues-working-cozy-office-medium-shot.png" alt="" style="border-radius: 10px;" class="browse-img3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+
+
+        <!-- how does it works -->
+        <div class="sec3" id="how_does_it_works">
+            <div class="sec3opacity"></div>
+            <div class="sec3content">
+                <center>
+                    <h1 style="color: white;margin-top: 100px;">How does it work</h1>
+                </center>
+                <div class="row" style="margin-top:40px">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-1">
+                        <center>
+                        <div class="search">
+                            <div class="search1">
+                                <i class="fa-solid fa-magnifying-glass"
+                                    style="padding: 0px;color: white;font-size: 20px;"></i>
+                            </div>
+                        </div>
+                        </center>
+                        <!-- <div class="bookmark"></div>
+                    <div class="read"></div> -->
+                    </div>
+                    <div class="col-md-7">
+                        <h3 style="color: white;">Search your favourite topic</h3>
+                        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,
+                            cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam
+                            aliquam? Voluptas, accusamus omnis?</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="row" style="margin-top:90px">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-1">
+                        <center>
+                        <div class="search">
+                            <div class="search1">
+                                <i class="fa-solid fa-bookmark" style="color: white;font-size: 20px;"></i>
+                            </div>
+                        </div></center>
+                        <!-- <div class="bookmark"></div>
+                    <div class="read"></div> -->
+                    </div>
+                    <div class="col-md-7">
+                        <h3 style="color: white;">Bookmark & Keep it for yourself</h3>
+                        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,
+                            cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam
+                            aliquam? Voluptas, accusamus omnis?</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="row" style="margin-top:90px">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-1">
+                        <center>
+                        <div class="search">
+                            <div class="search1">
+                                <i class="fa-solid fa-book-open"
+                                    style="padding: 0px;color: white;font-size: 20px;"></i>
+                            </div>
+                        </div>
+                        </center>
+                        <!-- <div class="bookmark"></div>
+                    <div class="read"></div> -->
+                    </div>
+                    <div class="col-md-7">
+                        <h3 style="color: white;">Read & Enjoy</h3>
+                        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,
+                            cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam
+                            aliquam? Voluptas, accusamus omnis?</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FAQ -->
+        <div class="row" id="FAQs">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <h1 style="font-weight:700; margin-bottom: 50px;margin-top: 50px;">Frequently Asked Questions</h1>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="faq">
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4"><img src="./Imagess/faq_graphic.jpg" style="width: 350px; height: 330px;" alt="">
+                </div>
+                <div class="col-md-6" style="padding: 20px;">
+                    <div class="main-div">
+                        <!-- <h1>Frequently asked questions</h1> -->
+                        <div class="first-div">
+                            <div class="child1" onclick="func1()" style="padding-left: 0;">
+                                <b>What is Topic Listing?</b>
+                                <b>+</b>
+                            </div>
+                            <p class="p1"></p>
+                        </div>
+                        <div class="second-div">
+                            <div class="child2" onclick="func2()" style="padding-left: 0;">
+                                <b>How To Find A Topic?</b>
+                                <b>+</b>
+                            </div>
+                            <p class="p2"></p>
+                        </div>
+                        <div class="third-div">
+                            <div class="child3" onclick="func3()" style="padding-left: 0;">
+                                <b>Does it need to paid</b>
+                                <b>+</b>
+                            </div>
+                            <p class="p3"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+        <!-- Get in Touch -->
+        <div class="row get-in-touch" id="get_in_touch">
+            <div class="row" style="margin-top: 5%; margin-bottom: 3%;">
+                <div class="col-md-12">
+                    <h2 style="text-align: center;">Get In Touch</h2>
+                </div>
+            </div>
+            <div class="row row-2">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="row" style="margin-bottom: 10%;">
+                        <div class="col-md-4">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487293.47787204565!2d78.07836299470655!3d17.41273323120619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1741880801107!5m2!1sen!2sin"
+                                width="350" height="230" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" style="border-radius: 10px;"></iframe>
+                        </div>
+                        <div class="col-md-4" style="padding-left: 6%;">
+                            <div style="border-bottom: 1px solid rgb(203, 200, 200);">
+                                <h3>Head Office</h3>
+                                <p style="color: gray; font-size: 21px; margin-bottom: 0;">Gandhi Nagar,533437</p>
+                                <p style="color: gray; margin:0; font-size: 21px;  margin-bottom: 9%;">Hyderbad,
+                                    Telangana ,India</p>
+                            </div>
+                            <div>
+                                <p style="color: gray; font-size: 21px; margin: 0; margin-top: 9%;">Phone : 305-240-9671
+                                </p>
+                                <p style="color: gray; font-size: 21px;">Email
+                                    info@company.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="padding-left: 6%;">
+                            <div style="border-bottom: 1px solid rgb(203, 200, 200);">
+                                <h3>Dubai office</h3>
+                                <p style="color: gray; font-size: 21px; margin-bottom: 0;">Burj Park, Downtown</p>
+                                <p style="color: gray; margin:0; font-size: 21px;  margin-bottom: 9%;">Dubai, United
+                                    Arab Emirates</p>
+                            </div>
+                            <div>
+                                <p style="color: gray; font-size: 21px; margin: 0; margin-top: 9%;">Phone : 110-220-3400
+                                </p>
+                                <p style="color: gray; font-size: 21px;">Email
+                                    info@company.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row">
+            <div class="row" style="margin-top: 10%; margin-bottom: 10%;">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a class="navbar-brand icon" href="#"><i class="fa-solid fa-clone"
+                                    style="color: rgb(73, 71, 71); font-size: 35px;"></i> <b
+                                    style="color: rgb(73, 71, 71); font-size: 35px;">Topic</b></a>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 style="color: #2d688b;">Resources</h4>
+                            <a href="#home" style="text-decoration: none; color: #80d0c7;">Home</a><br>
+                            <a href="#how_does_it_works" style="text-decoration: none; color: #80d0c7;">How it works</a><br>
+                            <a href="#FAQs" style="text-decoration: none; color: #80d0c7;">FAQs</a><br>
+                            <a href="#get_in_touch" style="text-decoration: none; color: #80d0c7;">Contact</a>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 style="color: #2d688b;">Information</h4>
+                            <a href="" style="text-decoration: none; color: #80d0c7;">305-240-9671</a><br>
+                            <a href="" style="text-decoration: none; color: #80d0c7;">
+                                info@company.com</a><br>
+                        </div>
+                        <div class="col-md-3">
+                            <select name="" id=""
+                                style="background-color:#80d0c7; border-radius: 7px; border: 1px solid white; padding: 3%; color: white;">
+                                <option value="Hindi">Hindi</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="English">English</option>
+                            </select>
+                            <br><br><br>
+                            <p style="color: gray;">Copyright © 2048 Topic Listing Center. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+
+        
+    </div>
+
+    <!-- script -->
+     <!-- <script src="../bootstrapp/browse_topics_js.js"></script> -->
+     <script src="./JS/project_js.js"></script>
+    <!-- <script src="../bootstrapp/browse_topics_js.js"></script> -->
+
+</body>
+    
+</html>

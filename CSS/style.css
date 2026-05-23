@@ -1,0 +1,281 @@
+.container-fluid{
+    margin: 0% !important;
+    padding: 0;
+}
+.icon {
+    font-size: 32px;
+    margin-left: 5%;
+}
+
+.navv {
+    background-image: linear-gradient(#97f2e7, #80d0c7);
+    border-bottom: 1px solid white;
+    /* position: sticky !important; */
+    /* top: 0; */
+}
+
+.nav-item {
+    padding-top: 10px;
+
+}
+.nav-link:hover{
+    color: #1d5f81 !important;
+}
+.hb:hover{
+    background-color: #1d5f81 !important;
+}
+.profile {
+    margin-left: 100px;
+}
+
+.profilee:hover{
+    /* background-color: white; */
+    /* border: 1px solid white; */
+    /* padding: 30%; */
+    color: #1d5f81 !important;
+}
+.input1:focus{
+    /* border: 1px solid white !important;
+     */
+     border: none;
+     outline: none;
+}
+.sec1 {
+    position: relative;
+    height: 150svh
+}
+
+.sec11 {
+    background-image: linear-gradient(#80d0c7, #1d5f81);
+    height: 80svh;
+}
+
+.sec12 {
+    background-color: #80d0c7;
+    height: 50svh;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.finance {
+    width: 40%;
+    height: 340px;
+    background-image: url(./Imagess/businesswoman-using-tablet-analysis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    position: relative;
+    top: -400px;
+    left: 50%;
+    /* padding: 10px; */
+    box-shadow: 1px 2px 3px;
+    border-radius: 10px;
+
+}
+
+.opacity {
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    background-color: #1d5f81;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.financecontent {
+    width: 100%;
+    height: 420px;
+    position: absolute;
+    color: white;
+    padding: 3%;
+}
+
+
+/* browse course */
+body {
+    overflow-x: hidden;
+}
+
+.browse-p {
+    display: inline;
+    margin: 3% 2%;
+    padding-bottom: 1%;
+    color: gray;
+}
+
+.browse-p:hover {
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+
+.browse-cards {
+    margin-top: 10%;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 9px 1px gray;
+    padding: 7%;
+    height: 86%;
+}
+
+.design-cards {
+    margin-top: 10%;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 9px 1px gray;
+    padding: 7%;
+    height: 84%;
+    position: relative;
+    top: -775px;
+    left: 200px
+}
+
+.browse-card-p {
+    color: gray;
+    /* padding: 2%; */
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1d5f81;
+    display: inline !important;
+}
+
+
+
+
+
+
+
+
+
+/* get in touch css */
+.get-in-touch {
+    background-color: #f0f8ff;
+}
+
+
+
+
+
+
+.main-div {
+    /* width:600px;
+    height:400px; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    /* border-radius: 20px; */
+    padding: 30px;
+}
+
+/* body{
+    display: flex;
+    justify-content: center;
+  } */
+b {
+    font-size: 20px;
+    /* border-bottom: 1px solid gray; */
+
+}
+
+.child1 {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid gray; */
+    padding: 20px;
+}
+
+.first-div {
+    border-bottom: 1px solid gray;
+
+
+}
+
+.second-div {
+    border-bottom: 1px solid gray;
+
+}
+
+.third-div {
+    border-bottom: 1px solid gray;
+
+}
+
+.child2 {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid gray; */
+    padding: 20px;
+}
+
+.child3 {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid gray; */
+    padding: 20px;
+}
+
+.child {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid gray; */
+    padding: 20px;
+}
+
+
+/* //how does it works */
+.sec3 {
+    width: 100%;
+    height: 150svh;
+    background-image: url(./Imagess/colleagues-working-cozy-office-medium-shot.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.sec3opacity {
+    width: 100%;
+    height: 150svh;
+    position: absolute;
+    background-color: #1d5f81;
+    opacity: 0.6;
+}
+
+.sec3content {
+    width: 100%;
+    height: 100svh;
+    position: absolute;
+
+}
+
+.search {
+    width: 60%;
+    height: 100%;
+    background-color: #80d0c7;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.search1 {
+    width: 90%;
+    height: 80%;
+    border: 2px solid white;
+    /* background-color: white; */
+    padding: 15%;
+    border-radius: 50%;
+}
+
+.bookmark {
+    width: 100%;
+    height: 100px;
+    background-color: #80d0c7;
+    border-radius: 100%;
+}
+
+.read {
+    width: 100%;
+    height: 100px;
+    background-color: #80d0c7;
+    border-radius: 100%;
+}
+
+option{
+    background-color: #80d0c7;
+}
+
